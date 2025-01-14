@@ -15,3 +15,8 @@ export interface ButtonProps {
     children: ReactNode;
   }
   
+  export interface CountContextProps {
+    count: number
+    increment: () => void
+    decrement: () => void
+  }
